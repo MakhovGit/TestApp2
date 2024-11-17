@@ -22,3 +22,6 @@ dependencyResolutionManagement {
 rootProject.name = "TestApp2"
 include(":app")
 include(":core")
+include(":main_screen")
+include(":favorites_screen")
+include(":account_screen")

@@ -26,6 +26,9 @@ android {
             )
         }
     }
+    buildFeatures {
+        viewBinding = AppConfig.viewBinding
+    }
     compileOptions {
         sourceCompatibility = AppConfig.sourceCompatibility
         targetCompatibility = AppConfig.targetCompatibility
@@ -36,6 +39,10 @@ android {
 }
 
 dependencies {
+    // Modules
+    implementation(project(Modules.MAIN_SCREEN))
+    implementation(project(Modules.FAVORITES_SCREEN))
+    implementation(project(Modules.ACCOUNT_SCREEN))
 
     // Android
     implementation(libs.androidx.core.ktx)
@@ -43,6 +50,9 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+
+    // Navigation
+    implementation(libs.bundles.androidx.navigation)
 
     // Tests
     testImplementation(libs.junit)

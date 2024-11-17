@@ -1,3 +1,13 @@
 <resources>
+
+    <!-- Commons begin -->
     <string name="app_name">TestApp2</string>
+    <!-- Commons end -->
+
+    <!-- Bottom navigation begin -->
+    <string name="bottom_navigation_main_screen">Главная</string>
+    <string name="bottom_navigation_favorites_screen">Избранное</string>
+    <string name="bottom_navigation_account_screen">Аккаунт</string>
+    <!-- Bottom navigation end -->
+
 </resources>

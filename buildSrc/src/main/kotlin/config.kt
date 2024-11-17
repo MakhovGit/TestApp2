@@ -23,8 +23,24 @@ object AppConfig : CommonConfig() {
     const val applicationId = COMMON_NAMESPACE
     const val versionCode = 1
     const val versionName = "1.0"
+    const val viewBinding = true
 }
 
 object CoreConfig : CommonConfig() {
     const val nameSpace = "$COMMON_NAMESPACE.core"
+}
+
+object MainScreenConfig : CommonConfig() {
+    const val nameSpace = "$COMMON_NAMESPACE.main_screen"
+    const val viewBinding = true
+}
+
+object FavoritesScreenConfig : CommonConfig() {
+    const val nameSpace = "$COMMON_NAMESPACE.favorites_screen"
+    const val viewBinding = true
+}
+
+object AccountScreenConfig : CommonConfig() {
+    const val nameSpace = "$COMMON_NAMESPACE.account_screen"
+    const val viewBinding = true
 }

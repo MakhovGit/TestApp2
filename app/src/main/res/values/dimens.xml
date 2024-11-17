@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  Commons begin  -->
+    <dimen name="zero_dp">0dp</dimen>
+    <!--  Commons end  -->
+
+    <!--  Main Activity begin  -->
+    <dimen name="main_activity_bottom_navigation_app_icon_size">30dp</dimen>
+    <!--  Main Activity end  -->
+
+</resources>
